@@ -2,7 +2,7 @@
 -- использовать только с алмазными мониторами
 -- data_example == cardnumber & name & type & pin
 -- все компоненты максимального уровня, сетевая карта,
---рядом с компьютером должен стоять считыватель магнитных карт,
+-- рядом с компьютером должен стоять считыватель магнитных карт,
 
 --- INITIALISATION BEGIN ---
 
@@ -188,6 +188,6 @@ until input_pin == card_pin
 --- === ---
 
 os.sleep(3)
-gpu.setBackground(0x000000)
+gpu.setBackground(COLOR_BLACK)
 gpu.setForeground(0xFFFFFF)
 term.clear()
